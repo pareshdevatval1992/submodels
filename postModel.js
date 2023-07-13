@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+  
 const permissionsObject = {
     public: "public",
     private: "private"
