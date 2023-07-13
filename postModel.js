@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
   
 const permissionsObject = {
     public: "public",
-    private: "private"
+    private: "private",
+    protected: "protected"
 }
 
 const postSchema = new mongoose.Schema({
